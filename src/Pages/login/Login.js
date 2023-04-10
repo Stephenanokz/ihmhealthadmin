@@ -16,6 +16,12 @@ const Login = () => {
   return (
     <div className="login">
       <form className="loginForm">
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/ihm-health.appspot.com/o/files%2Flogo.jpg?alt=media&token=9f360487-2f1f-46bd-b2f7-d3160a98b520"
+        alt=""
+        className="loginLogo"
+      />
+        <h2 className="title">Login</h2>
         <input
           type="email"
           placeholder="Email"
