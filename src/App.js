@@ -36,9 +36,9 @@ function App() {
           element={user ? <Navigate to="/" /> : <Login />}
         />
       </Routes>
-      <Topbar />
+      {user && <Topbar />}
       <div className="container">
-        <Sidebar />
+        {user && <Sidebar />}
         <Routes>
           <Route
             exact
