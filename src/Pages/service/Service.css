@@ -1,0 +1,124 @@
+.service{
+    flex: 4;
+    padding: 20px;
+}
+
+.serviceTitleContainer{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addServiceButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    transition: all 200ms;
+}
+
+.addServiceButton:hover{
+    background-color: rgb(97, 189, 189);
+}
+
+.serviceContainer{
+    display: flex;
+    width: 100%;
+}
+
+.serviceLeft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20px;
+    border-radius: 8px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    padding: 20px;
+}
+
+.serviceInfoItem{
+    margin-bottom: 20px;
+}
+
+.serviceInfoKey{
+    font-weight: 700;
+}
+
+.serviceImg{
+    margin-top: 10px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.serviceRight{
+    width: 50%;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    padding: 20px;
+}
+
+.serviceForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.serviceFormInputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.serviceFormInputs > label{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.serviceFormInputs > input{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.serviceFormInputs > textarea{
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.serviceButton{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: rgb(238, 238, 238);
+    font-weight: 600;
+    transition: all 300ms;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.serviceButton:hover{
+    background-color: rgb(33, 33, 143);
+    color: white;
+}

@@ -1,0 +1,93 @@
+.landing{
+    width: max-content;
+    flex: 4;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.landingTitleContainer{
+    margin-bottom: 10px;
+}
+
+.landingContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.landingLeft{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 50%;
+    margin-bottom: 20px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    padding: 20px;
+}
+
+.landingInfoItem{
+    margin-bottom: 30px;
+}
+
+.landingInfoKey{
+    font-weight: 700;
+}
+
+.landingRight{
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.75);
+    padding: 20px;
+}
+
+.landingForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.landingFormInputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.landingFormInputs > label{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.landingFormInputs > input{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.landingButton{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: rgb(238, 238, 238);
+    font-weight: 600;
+    transition: all 300ms;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.landingButton:hover{
+    background-color: rgb(33, 33, 143);
+    color: white;
+}
